@@ -1,0 +1,24 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+/* General Rules */
+html, body {margin: 0; height: 100%}
+
+p, h1, h2, h3, h4, h5, h6 {margin: 0}
+
+#content {height: 100%; overflow-y: scroll; overflow-x: hidden;}
+
+/* Parallax */
+.parallax {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; height: 100%; display: flex; align-items: center; justify-content: center;}
+.parallax .card {background-color: #fff; padding: 10vw 25vw; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25)}
+.parallax .card h1 {font-family: sans-serif; color: #111}
+
+/* Article */
+.article {padding: 5vw 15vw}
+.article h1 {text-align: center; font-family: sans-serif}
+.article hr {height: 1px; border: 0; background-color: #ccc}
+.article p {font-family: sans-serif; word-spacing: 8px; line-height: 1.5}
+
+/* Gallery */
+.gallery {display: flex; flex-wrap: wrap;}
+.gallery img {width: 16vw; display: block; margin: 0.5vw; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); border-radius: 4px}
