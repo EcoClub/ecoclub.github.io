@@ -1,18 +1,17 @@
 <style>
 	#top-nav {z-index: 2; position: fixed; top: 0; width: 100%}
-	#top-nav ul {margin: 0; padding: 0; list-style: none; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); display: flex; width: 100%;  background-color: #fff}
-	#top-nav li {border-right: 1px solid #ccc; min-height: 64px; display: flex; align-items: center; font-family: 'Gamja Flower', sans-serif; color: #15af46;}
-	#top-nav li:hover a {background-color: #eee}
-	#top-nav li:hover i {transform: scale(1.2)}
-	#top-nav i {transition: 0.3s}
-	#top-nav a {display: block; color: #15af46; padding: 16px; text-decoration: none; transition: 0.1s}
-	#top-nav p {padding: 0 16px; cursor: default; font-size: 32px}
-	#top-nav p::selection {background-color: transparent}
+	#top-nav ul {margin: 0; padding: 0; list-style: none; display: flex; background-color: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25)}
+	#top-nav li {display: flex; justify-content: center; align-items: center; padding: 8px; width: 64px; transition: 0.3s}
+	#top-nav li a {color: #15af46; transition: 0.3s}
+	#top-nav li:hover {background-color: #15af46}
+	#top-nav li:hover a {color: #fff}
 
-	</select>
+	#top-nav img {display: block; width: 64px}
+	#top-nav li:last-child {margin-left: auto; width: auto}
 </style>
 <ul>
-	<li><p>CHS9 Eco Club</p></li>
 	<li><a href="/"><i class="fas fa-home fa-2x"></i></a></li>
 	<li><a href="/activities/"><i class="fas fa-leaf fa-2x"></i></a></li>
+	<li><a href="/album/"><i class="fas fa-camera-retro fa-2x"></i></a></li>
+	<li><img src="/images/eco_club_logo.png"></li>
 </ul>
